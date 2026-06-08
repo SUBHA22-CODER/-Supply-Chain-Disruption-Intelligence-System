@@ -140,6 +140,25 @@ The application will be accessible at:
 
 ---
 
+## 📸 Dashboard & UI Gallery
+
+### 🖥️ Global Supply Chain Monitoring (Light Mode)
+![Global Supply Chain Monitoring](docs/screenshots/dashboard_light.png)
+
+### 📊 Supplier Details & Risk Profile (Light Mode)
+![Supplier Risk Breakdown Light](docs/screenshots/risk_breakdown_light.png)
+
+### 📈 Model Health & Prediction Drift Monitor (Dark Mode)
+![Model Health Monitor](docs/screenshots/model_health_dark.png)
+
+### 🤖 GenAI Supply Chain Copilot (Dark Mode)
+![GenAI Supply Chain Copilot](docs/screenshots/copilot_chat_dark.png)
+
+### 🧭 Risk Analysis & Rerouting Panel (Dark Mode)
+![Supplier Risk Breakdown Dark](docs/screenshots/risk_breakdown_dark.png)
+
+---
+
 ## 📂 Project Structure
 
 ```text
