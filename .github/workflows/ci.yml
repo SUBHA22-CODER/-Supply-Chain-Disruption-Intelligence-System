@@ -38,45 +38,46 @@ jobs:
       run: |
         python -m pytest -v
 
-  build-and-deploy:
-    needs: test
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && secrets.AWS_ROLE_ARN != ''
-    runs-on: ubuntu-latest
-    
-    permissions:
-      id-token: write  # Required for AWS OIDC
-      contents: read
-      
-    steps:
-    - uses: actions/checkout@v4
+#  build-and-deploy:
+#    needs: test
+#    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+#    runs-on: ubuntu-latest
+#    
+#    permissions:
+#      id-token: write  # Required for AWS OIDC
+#      contents: read
+#      
+#    steps:
+#    - uses: actions/checkout@v4
+#
+#    - name: Configure AWS credentials
+#      uses: aws-actions/configure-aws-credentials@v4
+#      with:
+#        role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+#        aws-region: ${{ env.AWS_REGION }}
+#
+#    - name: Login to Amazon ECR
+#      id: login-ecr
+#      uses: aws-actions/amazon-ecr-login@v2
+#
+#    - name: Build, tag, and push backend image
+#      env:
+#        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+#        IMAGE_TAG: ${{ github.sha }}
+#      run: |
+#        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY_FASTAPI:$IMAGE_TAG -f infra/docker/Dockerfile.backend .
+#        docker push $ECR_REGISTRY/$ECR_REPOSITORY_FASTAPI:$IMAGE_TAG
+#        
+#    - name: Update kubeconfig
+#      run: aws eks update-kubeconfig --name ${{ env.EKS_CLUSTER_NAME }} --region ${{ env.AWS_REGION }}
+#
+#    - name: Deploy to Amazon EKS
+#      env:
+#        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+#        IMAGE_TAG: ${{ github.sha }}
+#      run: |
+#        apt-get update && apt-get install -y gettext-base
+#        envsubst < infra/k8s/fastapi-deployment.yaml | kubectl apply -f -
+#        envsubst < infra/k8s/kafka-consumer.yaml | kubectl apply -f -
+#        envsubst < infra/k8s/agent-cronjob.yaml | kubectl apply -f -
 
-    - name: Configure AWS credentials
-      uses: aws-actions/configure-aws-credentials@v4
-      with:
-        role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
-        aws-region: ${{ env.AWS_REGION }}
-
-    - name: Login to Amazon ECR
-      id: login-ecr
-      uses: aws-actions/amazon-ecr-login@v2
-
-    - name: Build, tag, and push backend image
-      env:
-        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        IMAGE_TAG: ${{ github.sha }}
-      run: |
-        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY_FASTAPI:$IMAGE_TAG -f infra/docker/Dockerfile.backend .
-        docker push $ECR_REGISTRY/$ECR_REPOSITORY_FASTAPI:$IMAGE_TAG
-        
-    - name: Update kubeconfig
-      run: aws eks update-kubeconfig --name ${{ env.EKS_CLUSTER_NAME }} --region ${{ env.AWS_REGION }}
-
-    - name: Deploy to Amazon EKS
-      env:
-        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        IMAGE_TAG: ${{ github.sha }}
-      run: |
-        apt-get update && apt-get install -y gettext-base
-        envsubst < infra/k8s/fastapi-deployment.yaml | kubectl apply -f -
-        envsubst < infra/k8s/kafka-consumer.yaml | kubectl apply -f -
-        envsubst < infra/k8s/agent-cronjob.yaml | kubectl apply -f -
