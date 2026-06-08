@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: shadowmess-agent
+spec:
+  schedule: "*/15 * * * *" # Every 15 minutes
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: agent
+            image: ${ECR_REGISTRY}/shadowmess-agent:${IMAGE_TAG}
+            command: ["python", "-m", "services.agent.autonomous_agent"]
+            env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: db-credentials
+                  key: url
+          restartPolicy: OnFailure

@@ -1,0 +1,31 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# System dependencies for psycopg2, geoalchemy2
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc libpq-dev libgdal-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+COPY pyproject.toml ./
+RUN pip install --no-cache-dir \
+    fastapi[all] uvicorn sqlalchemy psycopg2-binary \
+    redis numpy pandas scikit-learn joblib \
+    geoalchemy2 py2neo networkx \
+    && pip install --no-cache-dir ortools || true
+
+# Copy application code
+COPY services/fastapi_app/ ./services/fastapi_app/
+COPY services/ml_inference/ ./services/ml_inference/
+COPY services/agent/ ./services/agent/
+COPY data/ ./data/
+
+WORKDIR /app/services/fastapi_app
+
+EXPOSE 8000
+
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]

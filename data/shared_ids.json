@@ -1,0 +1,606 @@
+{
+  "suppliers": [
+    {
+      "id": "0b96cc93-c477-4b54-ba4f-0a57ef8e1681",
+      "name": "Supplier 000"
+    },
+    {
+      "id": "8b6cc546-cea9-4918-9b04-25101c956043",
+      "name": "Supplier 001"
+    },
+    {
+      "id": "748a7b24-0f46-403d-8463-8719a44b962f",
+      "name": "Supplier 002"
+    },
+    {
+      "id": "c6a28141-44ec-4885-907e-9888c3dbd3c2",
+      "name": "Supplier 003"
+    },
+    {
+      "id": "989bb8b8-f153-4ffa-8370-a6a81ee963c5",
+      "name": "Supplier 004"
+    },
+    {
+      "id": "5eb8a2c6-bc0c-4872-b0ad-4a8cdab807d3",
+      "name": "Supplier 005"
+    },
+    {
+      "id": "b3a9bf3b-46a2-4dd1-9c27-57762ccdf03a",
+      "name": "Supplier 006"
+    },
+    {
+      "id": "f47cae60-1c2d-40fd-b9a4-58344004f2ec",
+      "name": "Supplier 007"
+    },
+    {
+      "id": "f94f037e-8ff5-41f4-9fb4-f63dc1a90ec0",
+      "name": "Supplier 008"
+    },
+    {
+      "id": "122d66e9-20e8-420c-911d-883441a5a7cf",
+      "name": "Supplier 009"
+    },
+    {
+      "id": "708f4a67-6623-459a-99b0-2fee77bf5357",
+      "name": "Supplier 010"
+    },
+    {
+      "id": "cd1b3a01-1378-48cb-86f7-3abbcbcbe864",
+      "name": "Supplier 011"
+    },
+    {
+      "id": "ced5638c-3330-4461-8c31-879352222078",
+      "name": "Supplier 012"
+    },
+    {
+      "id": "edc5ccf5-e6e8-4d7a-9dfe-8b452212e2d5",
+      "name": "Supplier 013"
+    },
+    {
+      "id": "6a8ac878-9c04-4bcd-a478-3da429a24c45",
+      "name": "Supplier 014"
+    },
+    {
+      "id": "713f27ea-2032-48d7-a8c4-d426311a1096",
+      "name": "Supplier 015"
+    },
+    {
+      "id": "5c5de3c3-698e-4b2b-a5d7-a7acf30ec479",
+      "name": "Supplier 016"
+    },
+    {
+      "id": "004986fc-1624-43e2-b369-59463601a308",
+      "name": "Supplier 017"
+    },
+    {
+      "id": "88d3dc4a-9d8e-42f8-9b0b-d77f43439de2",
+      "name": "Supplier 018"
+    },
+    {
+      "id": "ff564877-1c98-43f6-8792-7dcefdb6b1aa",
+      "name": "Supplier 019"
+    },
+    {
+      "id": "d6ae66a3-697a-45e5-b7a3-d24bd182f9a0",
+      "name": "Supplier 020"
+    },
+    {
+      "id": "c891c0d8-6549-4e5d-94fd-df59e431036e",
+      "name": "Supplier 021"
+    },
+    {
+      "id": "79f85911-9a96-490c-aae4-6237e59b562d",
+      "name": "Supplier 022"
+    },
+    {
+      "id": "aef88a30-8bd6-4b3d-82b1-df6911f4a26d",
+      "name": "Supplier 023"
+    },
+    {
+      "id": "fca070ba-fddd-4d38-8184-e680613b8506",
+      "name": "Supplier 024"
+    },
+    {
+      "id": "5350b712-7eea-41f2-b0b0-3307eb67f5ec",
+      "name": "Supplier 025"
+    },
+    {
+      "id": "eaa78ce3-db9e-4af3-b03c-100e48dbfa4b",
+      "name": "Supplier 026"
+    },
+    {
+      "id": "cb85ee92-8b5b-48be-a1db-03ab2d4c7f26",
+      "name": "Supplier 027"
+    },
+    {
+      "id": "28aaf052-f610-49a1-9c25-ac0a9c78f119",
+      "name": "Supplier 028"
+    },
+    {
+      "id": "18a80db0-333b-46ed-a997-5d72e8449c8d",
+      "name": "Supplier 029"
+    },
+    {
+      "id": "235b279b-0b5c-4be3-aa3b-e26d5038fa88",
+      "name": "Supplier 030"
+    },
+    {
+      "id": "89240c46-f6d7-464b-9b86-cfa6e978a600",
+      "name": "Supplier 031"
+    },
+    {
+      "id": "b7559fce-313d-4992-baa5-1b0ab05a4638",
+      "name": "Supplier 032"
+    },
+    {
+      "id": "f8c63166-45e5-448d-b3e6-54b5d0fbf12c",
+      "name": "Supplier 033"
+    },
+    {
+      "id": "2361b60c-932b-4e24-82e2-57c7574affd1",
+      "name": "Supplier 034"
+    },
+    {
+      "id": "21e9321b-87f8-41d6-9942-f2865953f888",
+      "name": "Supplier 035"
+    },
+    {
+      "id": "a177b11c-f55b-433e-a6ee-b25618d9c72f",
+      "name": "Supplier 036"
+    },
+    {
+      "id": "16a17bfd-ace8-4ec5-a7fa-785cf5736c50",
+      "name": "Supplier 037"
+    },
+    {
+      "id": "5c9f336e-78fc-465e-899a-5b33d05e226b",
+      "name": "Supplier 038"
+    },
+    {
+      "id": "f312d006-08bc-427f-aa78-93e4ac9c3224",
+      "name": "Supplier 039"
+    },
+    {
+      "id": "5079d6e5-8ae6-481a-973a-12a77f161a41",
+      "name": "Supplier 040"
+    },
+    {
+      "id": "865196e6-c2e1-441c-96a3-dc590c786701",
+      "name": "Supplier 041"
+    },
+    {
+      "id": "7328caba-9ffd-4450-8dca-8303adbb8af4",
+      "name": "Supplier 042"
+    },
+    {
+      "id": "9816fa78-11f8-4181-8baf-2e662cfad7db",
+      "name": "Supplier 043"
+    },
+    {
+      "id": "d6e07cea-589f-43fa-b0af-ce713ce82227",
+      "name": "Supplier 044"
+    },
+    {
+      "id": "8027d02d-3158-420e-ae46-41d08ff835f8",
+      "name": "Supplier 045"
+    },
+    {
+      "id": "682c7609-2f17-4d1f-9477-4f3f046d8fd3",
+      "name": "Supplier 046"
+    },
+    {
+      "id": "062c0c45-b7a9-40fd-ac72-45a59fc9ffd9",
+      "name": "Supplier 047"
+    },
+    {
+      "id": "3e4ce111-a9cd-498e-b0af-0b1459baaaa4",
+      "name": "Supplier 048"
+    },
+    {
+      "id": "74e71b61-27eb-4f11-b7cd-a554b993c487",
+      "name": "Supplier 049"
+    }
+  ],
+  "skus": [
+    {
+      "id": "9c39a498-7cb8-4c40-9fd2-0cb9f9b74ec6",
+      "name": "SKU-1000"
+    },
+    {
+      "id": "776d6748-a707-4f16-bfa4-e3d7eb4a14fe",
+      "name": "SKU-1001"
+    },
+    {
+      "id": "579e878b-0c0d-4b7f-b870-37ae0e19ef22",
+      "name": "SKU-1002"
+    },
+    {
+      "id": "dc07a208-a079-4f32-8015-387e67c16f1d",
+      "name": "SKU-1003"
+    },
+    {
+      "id": "032ce65b-8b66-4cf7-a1ce-2cb22e56fc60",
+      "name": "SKU-1004"
+    },
+    {
+      "id": "9a0ee6ff-1728-4abc-95dc-b42e7f87af49",
+      "name": "SKU-1005"
+    },
+    {
+      "id": "1ab9a55b-fe80-4228-b081-046d3d80fa4b",
+      "name": "SKU-1006"
+    },
+    {
+      "id": "1693544f-8c78-47b1-9606-6ca49b19f076",
+      "name": "SKU-1007"
+    },
+    {
+      "id": "412cff29-52c6-40ce-8906-13a5134c5e72",
+      "name": "SKU-1008"
+    },
+    {
+      "id": "e88d9745-bfc2-47cd-a047-6e147a59ad91",
+      "name": "SKU-1009"
+    },
+    {
+      "id": "c01d1e9c-a6d6-4cd7-b7bf-d9f960331db4",
+      "name": "SKU-1010"
+    },
+    {
+      "id": "7622169f-16f1-4620-ae04-8d42e2316103",
+      "name": "SKU-1011"
+    },
+    {
+      "id": "55f1f563-6d33-4a52-827f-83eb83f4c314",
+      "name": "SKU-1012"
+    },
+    {
+      "id": "8d3df477-4cae-4255-aff0-d6c8712394bf",
+      "name": "SKU-1013"
+    },
+    {
+      "id": "58ad8ec0-937a-42b9-9e6c-7d9a3cff9ad4",
+      "name": "SKU-1014"
+    },
+    {
+      "id": "ff78399a-43de-4fe9-9607-d4bdbeeea427",
+      "name": "SKU-1015"
+    },
+    {
+      "id": "fda62936-0ee4-4576-8667-b93f16eff784",
+      "name": "SKU-1016"
+    },
+    {
+      "id": "e60b5314-6b39-4bc3-ac07-522ce4fc0d1b",
+      "name": "SKU-1017"
+    },
+    {
+      "id": "3d1f0d3d-4bc4-4cc5-893a-89393caf3a2a",
+      "name": "SKU-1018"
+    },
+    {
+      "id": "cc32f7ee-0707-4787-84ec-ad408c3ec144",
+      "name": "SKU-1019"
+    },
+    {
+      "id": "88df2c7d-c0c8-401e-9186-158ef01918c3",
+      "name": "SKU-1020"
+    },
+    {
+      "id": "4686f425-a18e-45ee-9ad6-b25601456de9",
+      "name": "SKU-1021"
+    },
+    {
+      "id": "16be3ec5-6551-4071-9c65-1a622cb6f9d6",
+      "name": "SKU-1022"
+    },
+    {
+      "id": "36d640c2-e108-4a0d-851c-4128972f9088",
+      "name": "SKU-1023"
+    },
+    {
+      "id": "6d7eadc1-9191-4b0e-8074-085a8e536e2c",
+      "name": "SKU-1024"
+    },
+    {
+      "id": "070f1fbc-5f6c-4114-95af-312797da77bd",
+      "name": "SKU-1025"
+    },
+    {
+      "id": "dfc3b89a-b0c4-43cd-b7df-527c5cd53971",
+      "name": "SKU-1026"
+    },
+    {
+      "id": "8511f4dd-74de-47e5-89c8-3521a1b99b53",
+      "name": "SKU-1027"
+    },
+    {
+      "id": "69d47cf3-6b8a-4b9e-abb6-7447a6f14a95",
+      "name": "SKU-1028"
+    },
+    {
+      "id": "58a6ff69-eccb-4cc7-b77a-c5c10667a408",
+      "name": "SKU-1029"
+    },
+    {
+      "id": "5337aafc-c5e5-4f29-9d8d-5e98753b4f9b",
+      "name": "SKU-1030"
+    },
+    {
+      "id": "0bd99e36-56f5-4157-92d3-8f96aa63ebbd",
+      "name": "SKU-1031"
+    },
+    {
+      "id": "88c731ba-0ef9-4462-be7e-68e4c8d86518",
+      "name": "SKU-1032"
+    },
+    {
+      "id": "294d3171-1c52-4840-992e-14b79bff8b08",
+      "name": "SKU-1033"
+    },
+    {
+      "id": "2896af8e-e9be-42c0-a9ac-fe48717adb2b",
+      "name": "SKU-1034"
+    },
+    {
+      "id": "6729c451-386d-419b-9ba6-9f2f70182ee0",
+      "name": "SKU-1035"
+    },
+    {
+      "id": "20e5ed37-0441-415f-9056-8a186e06d11a",
+      "name": "SKU-1036"
+    },
+    {
+      "id": "b0cd70c9-b61b-46c4-a33d-6108b267428b",
+      "name": "SKU-1037"
+    },
+    {
+      "id": "1d4bf5e6-5f01-425d-9721-572d58d65455",
+      "name": "SKU-1038"
+    },
+    {
+      "id": "6887e571-068f-41b5-a92d-d12cc2567143",
+      "name": "SKU-1039"
+    },
+    {
+      "id": "789ba9d4-d30b-48a7-8f5e-06f00cb05082",
+      "name": "SKU-1040"
+    },
+    {
+      "id": "31eb9b76-71a3-44ec-928d-874afc31b88a",
+      "name": "SKU-1041"
+    },
+    {
+      "id": "2c605a7e-bf51-4a86-8ad5-f96cc5c72b11",
+      "name": "SKU-1042"
+    },
+    {
+      "id": "fc94a9a5-45c6-4c5b-94a3-40e565848f3c",
+      "name": "SKU-1043"
+    },
+    {
+      "id": "bf1d0ab6-5e07-4e7e-b8db-29b60182f8b9",
+      "name": "SKU-1044"
+    },
+    {
+      "id": "c4bb35e6-6dac-4a4d-ab75-0b732969a57c",
+      "name": "SKU-1045"
+    },
+    {
+      "id": "ca17c294-f3ff-4a24-9bbb-8aee449fd090",
+      "name": "SKU-1046"
+    },
+    {
+      "id": "88e84828-4dad-40f7-99f7-a63d4331fd50",
+      "name": "SKU-1047"
+    },
+    {
+      "id": "4162b239-7c0e-46d8-a6d1-6252f56422e2",
+      "name": "SKU-1048"
+    },
+    {
+      "id": "333cbd75-cd70-4f79-8ed6-d8c2a9e0b47f",
+      "name": "SKU-1049"
+    },
+    {
+      "id": "39f5facd-34be-4c1c-8d4f-eb09464a9d11",
+      "name": "SKU-1050"
+    },
+    {
+      "id": "46be7025-685d-4ecb-b5b5-a74d0c3d7f2f",
+      "name": "SKU-1051"
+    },
+    {
+      "id": "e163b84e-7672-46a6-9fdb-606e8314436b",
+      "name": "SKU-1052"
+    },
+    {
+      "id": "689d7f6c-1f5c-4ffc-81e0-119f2b266179",
+      "name": "SKU-1053"
+    },
+    {
+      "id": "83235012-6277-4489-8508-d0a685e516ab",
+      "name": "SKU-1054"
+    },
+    {
+      "id": "d060c6c6-f749-44f2-9118-8be97941b36f",
+      "name": "SKU-1055"
+    },
+    {
+      "id": "9d60befc-3c1c-40d2-8660-8919ce1c638d",
+      "name": "SKU-1056"
+    },
+    {
+      "id": "bafe1765-02b4-4a5b-82d9-7d72c21b4731",
+      "name": "SKU-1057"
+    },
+    {
+      "id": "426bcd32-5b76-49ad-a764-c85f479400bb",
+      "name": "SKU-1058"
+    },
+    {
+      "id": "128c49b8-7442-47e9-b782-a92ae5e54140",
+      "name": "SKU-1059"
+    },
+    {
+      "id": "23e1b31c-153c-488e-8c62-22eecd1664df",
+      "name": "SKU-1060"
+    },
+    {
+      "id": "d04a4886-5a31-4a25-8f73-ef90e876a293",
+      "name": "SKU-1061"
+    },
+    {
+      "id": "45871d41-3396-436e-bbad-f974343d40d9",
+      "name": "SKU-1062"
+    },
+    {
+      "id": "0f976836-125c-41e1-acd4-d21e2f74a269",
+      "name": "SKU-1063"
+    },
+    {
+      "id": "43d52834-e5cb-4253-ae99-515a5e0c5942",
+      "name": "SKU-1064"
+    },
+    {
+      "id": "2e308143-446b-4fb7-96a8-4e26a7cfe3c6",
+      "name": "SKU-1065"
+    },
+    {
+      "id": "ceabb210-c71c-4629-87a6-79314b65e5d4",
+      "name": "SKU-1066"
+    },
+    {
+      "id": "82460356-c3a7-442e-9f12-275000ec84b3",
+      "name": "SKU-1067"
+    },
+    {
+      "id": "960a3f98-e1f5-4ba1-b010-9bb9187618f3",
+      "name": "SKU-1068"
+    },
+    {
+      "id": "b9766104-15a0-4656-9d04-6124b8f01979",
+      "name": "SKU-1069"
+    },
+    {
+      "id": "60e1b4f7-49a9-49be-bb26-37aa274b51f5",
+      "name": "SKU-1070"
+    },
+    {
+      "id": "58d44aea-bb6b-4b8a-b977-bc17b9fdfee3",
+      "name": "SKU-1071"
+    },
+    {
+      "id": "e609b7cc-1e39-4d2d-9fe6-b2800ec04dd8",
+      "name": "SKU-1072"
+    },
+    {
+      "id": "6987e6e7-5a03-4768-adb1-99282a633093",
+      "name": "SKU-1073"
+    },
+    {
+      "id": "0d3421e4-dd60-4bae-9835-99b9d49c7693",
+      "name": "SKU-1074"
+    },
+    {
+      "id": "bcf64053-f295-4ac2-ae3b-be5ed64d6c4b",
+      "name": "SKU-1075"
+    },
+    {
+      "id": "5b7c65c9-35fe-47dc-9ac8-7b8b807620ff",
+      "name": "SKU-1076"
+    },
+    {
+      "id": "9edfb5e1-a095-42d3-ba5d-108084e75bb9",
+      "name": "SKU-1077"
+    },
+    {
+      "id": "72a81c64-8074-43bf-95a2-ae4752407b56",
+      "name": "SKU-1078"
+    },
+    {
+      "id": "6b9359ef-ae82-4351-91ec-cdf2e249f0c1",
+      "name": "SKU-1079"
+    },
+    {
+      "id": "01eed6da-bc2a-4e34-a448-b29ea6e8d7fc",
+      "name": "SKU-1080"
+    },
+    {
+      "id": "97340fe4-8bb4-42f3-ae75-2062c5c92aa7",
+      "name": "SKU-1081"
+    },
+    {
+      "id": "762a12bd-1224-4ab1-9e04-6e3a314f4c99",
+      "name": "SKU-1082"
+    },
+    {
+      "id": "577880f8-af96-4bff-b700-a3b5cf890c15",
+      "name": "SKU-1083"
+    },
+    {
+      "id": "3071cd16-57b5-4c70-8129-aa84b85ac81d",
+      "name": "SKU-1084"
+    },
+    {
+      "id": "984787ca-3c80-4c98-9995-f57a1927f5a9",
+      "name": "SKU-1085"
+    },
+    {
+      "id": "bd183625-e67c-488c-97dc-4fd79720e3ac",
+      "name": "SKU-1086"
+    },
+    {
+      "id": "b2bb9694-23f8-4897-a356-ca934d6994f8",
+      "name": "SKU-1087"
+    },
+    {
+      "id": "a3d79902-5663-4ac5-9380-1da463279181",
+      "name": "SKU-1088"
+    },
+    {
+      "id": "d6a04d02-14a6-4653-aedb-9b15df31c7ea",
+      "name": "SKU-1089"
+    },
+    {
+      "id": "203948f3-b061-42ea-8212-dd8501841d70",
+      "name": "SKU-1090"
+    },
+    {
+      "id": "938e4a00-1731-4d47-811c-3385d51417ae",
+      "name": "SKU-1091"
+    },
+    {
+      "id": "fec2de69-f95b-4018-a9ba-022ea97d709d",
+      "name": "SKU-1092"
+    },
+    {
+      "id": "a7cd65b5-3dff-45a6-bc23-5461fca86d01",
+      "name": "SKU-1093"
+    },
+    {
+      "id": "b6424323-38ff-4784-b84b-1cdae2e75334",
+      "name": "SKU-1094"
+    },
+    {
+      "id": "41510870-2da7-45a2-8e79-0778fcaf4e87",
+      "name": "SKU-1095"
+    },
+    {
+      "id": "92419e6f-1b8a-4d8c-a864-b3cba09c5d47",
+      "name": "SKU-1096"
+    },
+    {
+      "id": "eae8661b-f429-4ed2-a4d2-2e2e37e17463",
+      "name": "SKU-1097"
+    },
+    {
+      "id": "2ad5c735-c6ee-4a5a-a5df-783036e46213",
+      "name": "SKU-1098"
+    },
+    {
+      "id": "c521fadc-4a92-49f2-b8fc-d1c82124d3c7",
+      "name": "SKU-1099"
+    }
+  ]
+}

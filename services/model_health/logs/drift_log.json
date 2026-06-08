@@ -1,0 +1,11 @@
+{"timestamp": 1780929200.2329335, "ks_statistic": 0.4461538461538462, "p_value": 1.3311127961305596e-07, "psi_value": 1.173932125239164, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780929223.9605398, "ks_statistic": 0.45151515151515154, "p_value": 8.045935247251226e-08, "psi_value": 1.1822117504030865, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780929712.1755447, "ks_statistic": 0.5393506493506494, "p_value": 3.4441870146450283e-12, "psi_value": 1.3719705579048909, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780929741.6719322, "ks_statistic": 0.5012987012987012, "p_value": 1.6682092378973843e-10, "psi_value": 1.1644937414600223, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780929803.0447176, "ks_statistic": 0.5438461538461539, "p_value": 1.7587882415471766e-12, "psi_value": 1.3998669689663568, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780929846.4379485, "ks_statistic": 0.510253164556962, "p_value": 4.7664244910108513e-11, "psi_value": 1.1644937414600223, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780929887.0729947, "ks_statistic": 0.5525, "p_value": 5.42893377672104e-13, "psi_value": 1.427330787784614, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780930051.3502648, "ks_statistic": 0.5328571428571428, "p_value": 1.958731607081918e-12, "psi_value": 1.1908758801006993, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780930074.6770303, "ks_statistic": 0.5370588235294118, "p_value": 1.043283421459635e-12, "psi_value": 1.1908758801006993, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780930903.5723002, "ks_statistic": 0.6517857142857143, "p_value": 9.272571326585776e-23, "psi_value": 1.9372680266731437, "drift_detected": true, "alert_level": "RED"}
+{"timestamp": 1780930931.5779204, "ks_statistic": 0.6283185840707964, "p_value": 3.1800625297324568e-21, "psi_value": 1.7449829358165447, "drift_detected": true, "alert_level": "RED"}

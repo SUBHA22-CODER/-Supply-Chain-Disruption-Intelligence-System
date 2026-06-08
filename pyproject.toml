@@ -1,0 +1,63 @@
+[project]
+name = "supply-chain-ml"
+version = "0.1.0"
+description = "AI-driven supply chain disruption intelligence system"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0",
+    "requests",
+    "fastapi",
+    "uvicorn",
+    "python-multipart",
+    "redis",
+]
+
+[project.optional-dependencies]
+ml = [
+    "scikit-learn",
+    "networkx",
+    "numpy",
+    "pandas",
+    "torch",
+    "torchvision",
+    "xgboost",
+    "shap",
+    "mlflow",
+    "joblib",
+    "pyarrow",
+]
+data = [
+    "sqlalchemy",
+    "alembic",
+    "geoalchemy2",
+    "psycopg2-binary",
+    "py2neo",
+    "kafka-python-ng",
+    "faker",
+]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "httpx",
+    "ruff",
+    "black",
+    "mypy",
+    "pre-commit",
+    "ortools",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["services/fastapi_app/tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.black]
+line-length = 88
