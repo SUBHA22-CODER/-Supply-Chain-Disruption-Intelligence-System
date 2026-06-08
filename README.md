@@ -99,8 +99,8 @@ graph TD
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/Achievement-Management-System.git
-cd Achievement-Management-System
+git clone https://github.com/YOUR_GITHUB_USERNAME/Supply-Chain-Disruption-Intelligence-System.git
+cd Supply-Chain-Disruption-Intelligence-System
 ```
 
 ### 2. Run Infrastructure (Docker Compose)
